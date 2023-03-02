@@ -95,11 +95,46 @@ footer {
 .wrapper img {
   width: 35px;
   height: 35px;
-  margin-right: 0.6rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .wrapper img:hover {
   transition: 0.2s;
   filter: brightness(1.08);
   scale: 1.05;
+}
+
+@media screen and (max-width: 650px) {
+  footer .wrapper div {
+    font-size: 0.85rem;
+  }
+
+  .wrapper {
+    margin: 0 1rem 0 1rem;
+  }
+
+  .wrapper img {
+    width: 25px;
+    height: 25px;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  footer .wrapper div {
+    font-size: 0.75rem;
+  }
+
+  .wrapper {
+    margin: 0 1rem 0 1rem;
+  }
+
+  .wrapper img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+  }
 }
